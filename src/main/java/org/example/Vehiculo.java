@@ -59,6 +59,16 @@ public class Vehiculo implements Runnable {
 
     @Override
     public void run() {
+        /*
+        El coche entra y comprueba que hay plazas.
+        si no hay se va, si hay entra.
+        duerme Tiempo
+        luego va a la maquinaPago,
+        espera hasta que esté una libre.
+        paga y se va.
+        */
+
+
 
     }
 
