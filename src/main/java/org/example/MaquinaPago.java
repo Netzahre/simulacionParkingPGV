@@ -4,8 +4,6 @@ import java.io.*;
 
 public class MaquinaPago {
 
-
-
     //metodo el precio de 1'5€ por segundo
     public double recibirDinero(Vehiculo vehiculo){
         return vehiculo.getTiempo() * 1.5;
