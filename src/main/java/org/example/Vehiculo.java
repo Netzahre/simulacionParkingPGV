@@ -2,11 +2,7 @@ package org.example;
 
 public class Vehiculo implements Runnable {
     String matricula;
-
-
     enum tipoCoche {COCHE, MOTO, ELECTRICO}
-
-    ;
     long tiempo;
     tipoCoche tipo;
     int bateria;
@@ -17,6 +13,7 @@ public class Vehiculo implements Runnable {
         this.matricula = matricula;
         this.tipo = tipo;
         if (tipo == tipoCoche.COCHE) {
+
             switch ((int) (Math.random() * 2)) {
                 case 0 -> this.dpi = true;
                 case 1 -> this.dpi = false;
