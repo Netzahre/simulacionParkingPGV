@@ -2,24 +2,24 @@ package org.example;
 
 public class Vehiculo implements Runnable {
     String matricula;
-    enum tipoCoche {COCHE, MOTO, ELECTRICO}
+    enum tipoVehiculo {COCHE, MOTO, ELECTRICO}
     long tiempo;
-    tipoCoche tipo;
+    tipoVehiculo tipo;
     int bateria;
     boolean dpi;
 
-    public Vehiculo(long tiempo, String matricula, tipoCoche tipo) {
+    public Vehiculo(long tiempo, String matricula, tipoVehiculo tipo) {
         this.tiempo = tiempo;
         this.matricula = matricula;
         this.tipo = tipo;
-        if (tipo == tipoCoche.COCHE) {
+        if (tipo == tipoVehiculo.COCHE) {
 
             switch ((int) (Math.random() * 2)) {
                 case 0 -> this.dpi = true;
                 case 1 -> this.dpi = false;
             }
             this.tipo = tipo;
-        } else if (tipo == tipoCoche.ELECTRICO) {
+        } else if (tipo == tipoVehiculo.ELECTRICO) {
             this.bateria = (int) (Math.random() * 100) + 1;
             this.dpi = false;
         } else this.dpi = false;
@@ -41,11 +41,11 @@ public class Vehiculo implements Runnable {
         this.tiempo = tiempo;
     }
 
-    public tipoCoche getTipo() {
+    public tipoVehiculo getTipo() {
         return tipo;
     }
 
-    public void setTipo(tipoCoche tipo) {
+    public void setTipo(tipoVehiculo tipo) {
         this.tipo = tipo;
     }
 
@@ -75,10 +75,10 @@ public class Vehiculo implements Runnable {
     @Override
     public String toString() {
         String texto = "";
-        if (tipo == tipoCoche.COCHE) {
+        if (tipo == tipoVehiculo.COCHE) {
             texto = "El coche de matrícula " + getMatricula() + ":" +
                     "\n \t Estuvo " + getTiempo() + " Horas,";
-        } else if (tipo == tipoCoche.MOTO) {
+        } else if (tipo == tipoVehiculo.MOTO) {
             texto = "La moto de matrícula " + getMatricula() + ":" +
                     "\n \t Estuvo " + getTiempo() + " Horas,";
         } else {

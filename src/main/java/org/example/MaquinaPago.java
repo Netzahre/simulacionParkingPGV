@@ -17,7 +17,7 @@ public class MaquinaPago {
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(registroVehiculo, true))) {
             StringBuilder sb = new StringBuilder();
-            sb.append(vehiculo.toString());
+            sb.append(vehiculo);
             sb.append("\t pagando " + dinero + "€.\n");
             bw.write(sb.toString());
         }
