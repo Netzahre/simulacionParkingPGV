@@ -1,5 +1,6 @@
 package org.example;
 
+import java.io.IOException;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -79,7 +80,7 @@ public class Parking {
         }
     }
 
-    public void entrarVehiculoDPI(Vehiculo vehiculo) {
+    public boolean entrarVehiculoDPI(Vehiculo vehiculo) {
         lockEntradaDPI.lock();
         if (plazasDPI != 0) {
             System.out.println("¡Por una vez mi plaza favorita está!, para mi coche de matrícula " + vehiculo.getMatricula() + ", Hoy aprueban todos!");
@@ -124,7 +125,9 @@ public class Parking {
     }
 
     //representa el pago en la máquina pasada como parámetro.
-    public void pagar(MaquinaPago maquina) {
-
+    public void pagar(MaquinaPago maquina, Vehiculo vehiculo) throws IOException, InterruptedException {
+        maquinasPago.acquire();
+        maquina.registrarSalida(vehiculo);
+        maquinasPago.release();
     }
 }

@@ -13,12 +13,12 @@ public class Simulador {
             String matricula = "C" + ((int) (Math.random() * 9000) + 1000);
             Vehiculo.tipoVehiculo tipo = (Math.random() < 0.5) ?
                     Vehiculo.tipoVehiculo.COCHE : Vehiculo.tipoVehiculo.ELECTRICO;
-            vehiculos.add(new Vehiculo(((long) (Math.random() * 24) + 1), matricula, tipo,parking));
+            vehiculos.add(new Vehiculo(((long) (Math.random() * 24000) + 1), matricula, tipo,maquina,parking));
         }
 
         for (int i = 0; i < 30; i++) {
             String matricula = "M" + ((int) (Math.random() * 9000) + 1000);
-            vehiculos.add(new Vehiculo(((long) (Math.random() * 24) + 1), matricula, Vehiculo.tipoVehiculo.MOTO,parking));
+            vehiculos.add(new Vehiculo(((long) (Math.random() * 24000) + 1), matricula, Vehiculo.tipoVehiculo.MOTO,maquina,parking));
         }
         return vehiculos;
     }

@@ -22,19 +22,28 @@ public class MaquinaPago {
             bw.write(sb.toString());
 
         }
-
-        try (BufferedReader br = new BufferedReader(new FileReader(recaudacionMaquinas))){
-            StringBuilder sb = new StringBuilder();
-            String line = br.readLine();
-            for (String s : line.split(" ")) {
-                sb.append(s);
-            }
-            double precioNuevo = sb.charAt(4)+dinero;
-            try(BufferedWriter bw = new BufferedWriter(new FileWriter(recaudacionMaquinas,true))){
-                bw.write("El parking ha recaudado "+precioNuevo+" €.");
+        if (!recaudacionMaquinas.exists()) {
+            try (FileOutputStream fos = new FileOutputStream(recaudacionMaquinas);
+                 ObjectOutputStream oos = new ObjectOutputStream(fos)) {
+                oos.writeObject("El parking ha recaudado "+dinerito+" €.");
             }
         }
-    }
+
+        try (FileInputStream fis = new FileInputStream(recaudacionMaquinas);
+             ObjectInputStream ois = new ObjectInputStream(fis)) {
+
+            String recaudacion = (String) ois.readObject();
+            String[] letras = recaudacion.split(" ");
+            double dinerito = Double.parseDouble(letras[4]) + dinero;
+
+
+            try (FileOutputStream fos = new FileOutputStream(recaudacionMaquinas);
+                 ObjectOutputStream oos = new ObjectOutputStream(fos)) {
+                oos.writeObject("El parking ha recaudado " + dinerito + " €.");
+            }
+        } catch (ClassNotFoundException | IOException e) {
+            throw new RuntimeException(e);
+        }
 
 
 /*
