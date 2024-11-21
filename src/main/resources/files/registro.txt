@@ -2630,3 +2630,489 @@ El coche eléctrico de matrícula C7026:
  	 Estuvo 23903 Horas,	 pagando 35854.5€.
 La moto de matrícula M4670:
  	 Estuvo 23989 Horas,	 pagando 35983.5€.
+El coche de matrícula C5772:
+ 	 Estuvo 1048 Horas,	 pagando 1572.0€.
+El coche eléctrico de matrícula C1644:
+ 	 Estuvo 931 Horas,	 pagando 1396.5€.
+El coche eléctrico de matrícula C1432:
+ 	 Estuvo 910 Horas,	 pagando 1365.0€.
+La moto de matrícula M6210:
+ 	 Estuvo 1777 Horas,	 pagando 2665.5€.
+El coche de matrícula C9502:
+ 	 Estuvo 1374 Horas,	 pagando 2061.0€.
+El coche de matrícula C7161:
+ 	 Estuvo 865 Horas,	 pagando 1297.5€.
+El coche de matrícula C2631:
+ 	 Estuvo 478 Horas,	 pagando 717.0€.
+El coche de matrícula C1077:
+ 	 Estuvo 649 Horas,	 pagando 973.5€.
+El coche eléctrico de matrícula C2836:
+ 	 Estuvo 2720 Horas,	 pagando 4080.0€.
+El coche eléctrico de matrícula C7741:
+ 	 Estuvo 1301 Horas,	 pagando 1951.5€.
+El coche eléctrico de matrícula C4234:
+ 	 Estuvo 29 Horas,	 pagando 43.5€.
+El coche eléctrico de matrícula C6631:
+ 	 Estuvo 711 Horas,	 pagando 1066.5€.
+El coche de matrícula C3275:
+ 	 Estuvo 3274 Horas,	 pagando 4911.0€.
+El coche de matrícula C8104:
+ 	 Estuvo 4 Horas,	 pagando 6.0€.
+El coche eléctrico de matrícula C9665:
+ 	 Estuvo 3392 Horas,	 pagando 5088.0€.
+El coche de matrícula C8372:
+ 	 Estuvo 3547 Horas,	 pagando 5320.5€.
+El coche de matrícula C4234:
+ 	 Estuvo 4376 Horas,	 pagando 6564.0€.
+El coche de matrícula C8792:
+ 	 Estuvo 3911 Horas,	 pagando 5866.5€.
+El coche de matrícula C1529:
+ 	 Estuvo 470 Horas,	 pagando 705.0€.
+El coche de matrícula C2760:
+ 	 Estuvo 1296 Horas,	 pagando 1944.0€.
+La moto de matrícula M2031:
+ 	 Estuvo 543 Horas,	 pagando 814.5€.
+El coche de matrícula C6411:
+ 	 Estuvo 59 Horas,	 pagando 88.5€.
+El coche de matrícula C7006:
+ 	 Estuvo 3616 Horas,	 pagando 5424.0€.
+El coche de matrícula C2671:
+ 	 Estuvo 1552 Horas,	 pagando 2328.0€.
+El coche eléctrico de matrícula C5397:
+ 	 Estuvo 1831 Horas,	 pagando 2746.5€.
+La moto de matrícula M4955:
+ 	 Estuvo 525 Horas,	 pagando 787.5€.
+El coche de matrícula C1909:
+ 	 Estuvo 4629 Horas,	 pagando 6943.5€.
+El coche eléctrico de matrícula C3643:
+ 	 Estuvo 2117 Horas,	 pagando 3175.5€.
+El coche eléctrico de matrícula C3629:
+ 	 Estuvo 5234 Horas,	 pagando 7851.0€.
+El coche eléctrico de matrícula C8389:
+ 	 Estuvo 3326 Horas,	 pagando 4989.0€.
+El coche eléctrico de matrícula C9502:
+ 	 Estuvo 4942 Horas,	 pagando 7413.0€.
+El coche eléctrico de matrícula C5569:
+ 	 Estuvo 5239 Horas,	 pagando 7858.5€.
+El coche de matrícula C7828:
+ 	 Estuvo 4047 Horas,	 pagando 6070.5€.
+El coche de matrícula C7389:
+ 	 Estuvo 2063 Horas,	 pagando 3094.5€.
+La moto de matrícula M1692:
+ 	 Estuvo 3076 Horas,	 pagando 4614.0€.
+La moto de matrícula M9358:
+ 	 Estuvo 2532 Horas,	 pagando 3798.0€.
+El coche eléctrico de matrícula C7093:
+ 	 Estuvo 5700 Horas,	 pagando 8550.0€.
+El coche de matrícula C5818:
+ 	 Estuvo 1893 Horas,	 pagando 2839.5€.
+El coche de matrícula C3704:
+ 	 Estuvo 5209 Horas,	 pagando 7813.5€.
+El coche eléctrico de matrícula C9819:
+ 	 Estuvo 2341 Horas,	 pagando 3511.5€.
+La moto de matrícula M6375:
+ 	 Estuvo 2238 Horas,	 pagando 3357.0€.
+El coche eléctrico de matrícula C5890:
+ 	 Estuvo 496 Horas,	 pagando 744.0€.
+El coche eléctrico de matrícula C9365:
+ 	 Estuvo 6221 Horas,	 pagando 9331.5€.
+El coche eléctrico de matrícula C3174:
+ 	 Estuvo 5786 Horas,	 pagando 8679.0€.
+El coche de matrícula C7062:
+ 	 Estuvo 3117 Horas,	 pagando 4675.5€.
+El coche eléctrico de matrícula C7807:
+ 	 Estuvo 2303 Horas,	 pagando 3454.5€.
+El coche de matrícula C2105:
+ 	 Estuvo 5181 Horas,	 pagando 7771.5€.
+El coche de matrícula C4514:
+ 	 Estuvo 6447 Horas,	 pagando 9670.5€.
+El coche de matrícula C2817:
+ 	 Estuvo 4721 Horas,	 pagando 7081.5€.
+El coche de matrícula C6146:
+ 	 Estuvo 6604 Horas,	 pagando 9906.0€.
+El coche de matrícula C4387:
+ 	 Estuvo 4766 Horas,	 pagando 7149.0€.
+La moto de matrícula M6898:
+ 	 Estuvo 1361 Horas,	 pagando 2041.5€.
+La moto de matrícula M5518:
+ 	 Estuvo 3186 Horas,	 pagando 4779.0€.
+El coche eléctrico de matrícula C5435:
+ 	 Estuvo 6451 Horas,	 pagando 9676.5€.
+El coche de matrícula C2460:
+ 	 Estuvo 6108 Horas,	 pagando 9162.0€.
+El coche de matrícula C6951:
+ 	 Estuvo 5777 Horas,	 pagando 8665.5€.
+El coche de matrícula C6056:
+ 	 Estuvo 7203 Horas,	 pagando 10804.5€.
+El coche de matrícula C2470:
+ 	 Estuvo 6410 Horas,	 pagando 9615.0€.
+El coche de matrícula C1898:
+ 	 Estuvo 1988 Horas,	 pagando 2982.0€.
+El coche de matrícula C4176:
+ 	 Estuvo 3796 Horas,	 pagando 5694.0€.
+La moto de matrícula M6171:
+ 	 Estuvo 2876 Horas,	 pagando 4314.0€.
+El coche eléctrico de matrícula C4618:
+ 	 Estuvo 3377 Horas,	 pagando 5065.5€.
+El coche de matrícula C4187:
+ 	 Estuvo 6052 Horas,	 pagando 9078.0€.
+El coche de matrícula C4248:
+ 	 Estuvo 4070 Horas,	 pagando 6105.0€.
+El coche de matrícula C3811:
+ 	 Estuvo 6819 Horas,	 pagando 10228.5€.
+El coche de matrícula C2948:
+ 	 Estuvo 4400 Horas,	 pagando 6600.0€.
+El coche de matrícula C7042:
+ 	 Estuvo 4127 Horas,	 pagando 6190.5€.
+El coche eléctrico de matrícula C5532:
+ 	 Estuvo 8302 Horas,	 pagando 12453.0€.
+El coche de matrícula C5833:
+ 	 Estuvo 6940 Horas,	 pagando 10410.0€.
+El coche eléctrico de matrícula C6424:
+ 	 Estuvo 8194 Horas,	 pagando 12291.0€.
+El coche eléctrico de matrícula C5480:
+ 	 Estuvo 5490 Horas,	 pagando 8235.0€.
+El coche eléctrico de matrícula C1821:
+ 	 Estuvo 6222 Horas,	 pagando 9333.0€.
+El coche eléctrico de matrícula C7901:
+ 	 Estuvo 7611 Horas,	 pagando 11416.5€.
+La moto de matrícula M9986:
+ 	 Estuvo 3187 Horas,	 pagando 4780.5€.
+El coche eléctrico de matrícula C8049:
+ 	 Estuvo 8460 Horas,	 pagando 12690.0€.
+El coche de matrícula C1343:
+ 	 Estuvo 7906 Horas,	 pagando 11859.0€.
+El coche eléctrico de matrícula C9209:
+ 	 Estuvo 6178 Horas,	 pagando 9267.0€.
+El coche eléctrico de matrícula C9441:
+ 	 Estuvo 8026 Horas,	 pagando 12039.0€.
+El coche eléctrico de matrícula C4182:
+ 	 Estuvo 5886 Horas,	 pagando 8829.0€.
+El coche de matrícula C7725:
+ 	 Estuvo 8339 Horas,	 pagando 12508.5€.
+El coche de matrícula C6711:
+ 	 Estuvo 5278 Horas,	 pagando 7917.0€.
+El coche de matrícula C5537:
+ 	 Estuvo 7185 Horas,	 pagando 10777.5€.
+La moto de matrícula M3073:
+ 	 Estuvo 5931 Horas,	 pagando 8896.5€.
+El coche eléctrico de matrícula C5497:
+ 	 Estuvo 9251 Horas,	 pagando 13876.5€.
+El coche de matrícula C5076:
+ 	 Estuvo 7426 Horas,	 pagando 11139.0€.
+El coche eléctrico de matrícula C1116:
+ 	 Estuvo 5298 Horas,	 pagando 7947.0€.
+El coche de matrícula C6338:
+ 	 Estuvo 7542 Horas,	 pagando 11313.0€.
+El coche de matrícula C6817:
+ 	 Estuvo 9193 Horas,	 pagando 13789.5€.
+El coche de matrícula C7516:
+ 	 Estuvo 7345 Horas,	 pagando 11017.5€.
+La moto de matrícula M2241:
+ 	 Estuvo 4701 Horas,	 pagando 7051.5€.
+El coche de matrícula C3612:
+ 	 Estuvo 6737 Horas,	 pagando 10105.5€.
+El coche de matrícula C5297:
+ 	 Estuvo 5905 Horas,	 pagando 8857.5€.
+La moto de matrícula M2004:
+ 	 Estuvo 7396 Horas,	 pagando 11094.0€.
+El coche eléctrico de matrícula C2094:
+ 	 Estuvo 6743 Horas,	 pagando 10114.5€.
+El coche eléctrico de matrícula C6148:
+ 	 Estuvo 6911 Horas,	 pagando 10366.5€.
+El coche eléctrico de matrícula C4321:
+ 	 Estuvo 10824 Horas,	 pagando 16236.0€.
+La moto de matrícula M1229:
+ 	 Estuvo 11232 Horas,	 pagando 16848.0€.
+El coche de matrícula C7755:
+ 	 Estuvo 11479 Horas,	 pagando 17218.5€.
+El coche eléctrico de matrícula C3829:
+ 	 Estuvo 9691 Horas,	 pagando 14536.5€.
+El coche de matrícula C7985:
+ 	 Estuvo 10031 Horas,	 pagando 15046.5€.
+El coche de matrícula C6886:
+ 	 Estuvo 9411 Horas,	 pagando 14116.5€.
+El coche de matrícula C7590:
+ 	 Estuvo 9090 Horas,	 pagando 13635.0€.
+El coche eléctrico de matrícula C5926:
+ 	 Estuvo 7731 Horas,	 pagando 11596.5€.
+El coche eléctrico de matrícula C6279:
+ 	 Estuvo 9118 Horas,	 pagando 13677.0€.
+El coche de matrícula C2433:
+ 	 Estuvo 10452 Horas,	 pagando 15678.0€.
+El coche eléctrico de matrícula C7739:
+ 	 Estuvo 8746 Horas,	 pagando 13119.0€.
+El coche eléctrico de matrícula C5702:
+ 	 Estuvo 8348 Horas,	 pagando 12522.0€.
+El coche de matrícula C2636:
+ 	 Estuvo 8304 Horas,	 pagando 12456.0€.
+El coche de matrícula C3240:
+ 	 Estuvo 8626 Horas,	 pagando 12939.0€.
+El coche eléctrico de matrícula C5669:
+ 	 Estuvo 9579 Horas,	 pagando 14368.5€.
+El coche de matrícula C8305:
+ 	 Estuvo 8705 Horas,	 pagando 13057.5€.
+El coche de matrícula C1534:
+ 	 Estuvo 9610 Horas,	 pagando 14415.0€.
+El coche de matrícula C6403:
+ 	 Estuvo 10121 Horas,	 pagando 15181.5€.
+La moto de matrícula M6363:
+ 	 Estuvo 10245 Horas,	 pagando 15367.5€.
+El coche eléctrico de matrícula C2995:
+ 	 Estuvo 10510 Horas,	 pagando 15765.0€.
+El coche de matrícula C2744:
+ 	 Estuvo 8416 Horas,	 pagando 12624.0€.
+El coche de matrícula C7237:
+ 	 Estuvo 12055 Horas,	 pagando 18082.5€.
+El coche de matrícula C7675:
+ 	 Estuvo 8836 Horas,	 pagando 13254.0€.
+El coche de matrícula C4082:
+ 	 Estuvo 9940 Horas,	 pagando 14910.0€.
+El coche de matrícula C7287:
+ 	 Estuvo 12038 Horas,	 pagando 18057.0€.
+El coche eléctrico de matrícula C5977:
+ 	 Estuvo 10299 Horas,	 pagando 15448.5€.
+El coche de matrícula C5133:
+ 	 Estuvo 9591 Horas,	 pagando 14386.5€.
+El coche de matrícula C7096:
+ 	 Estuvo 11988 Horas,	 pagando 17982.0€.
+El coche de matrícula C9674:
+ 	 Estuvo 10241 Horas,	 pagando 15361.5€.
+El coche de matrícula C5292:
+ 	 Estuvo 9993 Horas,	 pagando 14989.5€.
+El coche eléctrico de matrícula C5176:
+ 	 Estuvo 9524 Horas,	 pagando 14286.0€.
+El coche eléctrico de matrícula C9262:
+ 	 Estuvo 11436 Horas,	 pagando 17154.0€.
+La moto de matrícula M1879:
+ 	 Estuvo 13725 Horas,	 pagando 20587.5€.
+El coche eléctrico de matrícula C2046:
+ 	 Estuvo 11708 Horas,	 pagando 17562.0€.
+El coche eléctrico de matrícula C1165:
+ 	 Estuvo 12508 Horas,	 pagando 18762.0€.
+La moto de matrícula M8222:
+ 	 Estuvo 11528 Horas,	 pagando 17292.0€.
+El coche eléctrico de matrícula C9780:
+ 	 Estuvo 12311 Horas,	 pagando 18466.5€.
+El coche eléctrico de matrícula C2826:
+ 	 Estuvo 12300 Horas,	 pagando 18450.0€.
+El coche de matrícula C3276:
+ 	 Estuvo 10426 Horas,	 pagando 15639.0€.
+La moto de matrícula M8241:
+ 	 Estuvo 11766 Horas,	 pagando 17649.0€.
+La moto de matrícula M2483:
+ 	 Estuvo 12998 Horas,	 pagando 19497.0€.
+El coche de matrícula C7400:
+ 	 Estuvo 14329 Horas,	 pagando 21493.5€.
+El coche eléctrico de matrícula C7361:
+ 	 Estuvo 12516 Horas,	 pagando 18774.0€.
+El coche eléctrico de matrícula C3348:
+ 	 Estuvo 12523 Horas,	 pagando 18784.5€.
+El coche eléctrico de matrícula C2041:
+ 	 Estuvo 14549 Horas,	 pagando 21823.5€.
+El coche de matrícula C2658:
+ 	 Estuvo 13232 Horas,	 pagando 19848.0€.
+El coche eléctrico de matrícula C8783:
+ 	 Estuvo 15151 Horas,	 pagando 22726.5€.
+El coche de matrícula C7969:
+ 	 Estuvo 15729 Horas,	 pagando 23593.5€.
+El coche de matrícula C6251:
+ 	 Estuvo 13546 Horas,	 pagando 20319.0€.
+El coche eléctrico de matrícula C5454:
+ 	 Estuvo 14854 Horas,	 pagando 22281.0€.
+El coche eléctrico de matrícula C2333:
+ 	 Estuvo 11114 Horas,	 pagando 16671.0€.
+El coche eléctrico de matrícula C2690:
+ 	 Estuvo 13328 Horas,	 pagando 19992.0€.
+El coche eléctrico de matrícula C6879:
+ 	 Estuvo 16232 Horas,	 pagando 24348.0€.
+El coche eléctrico de matrícula C4303:
+ 	 Estuvo 15875 Horas,	 pagando 23812.5€.
+El coche eléctrico de matrícula C5132:
+ 	 Estuvo 16015 Horas,	 pagando 24022.5€.
+La moto de matrícula M2382:
+ 	 Estuvo 15089 Horas,	 pagando 22633.5€.
+El coche eléctrico de matrícula C7242:
+ 	 Estuvo 13006 Horas,	 pagando 19509.0€.
+El coche de matrícula C7263:
+ 	 Estuvo 15249 Horas,	 pagando 22873.5€.
+El coche de matrícula C9273:
+ 	 Estuvo 15062 Horas,	 pagando 22593.0€.
+El coche de matrícula C4106:
+ 	 Estuvo 12896 Horas,	 pagando 19344.0€.
+El coche eléctrico de matrícula C3864:
+ 	 Estuvo 13134 Horas,	 pagando 19701.0€.
+El coche eléctrico de matrícula C8254:
+ 	 Estuvo 15124 Horas,	 pagando 22686.0€.
+El coche eléctrico de matrícula C2379:
+ 	 Estuvo 13979 Horas,	 pagando 20968.5€.
+El coche de matrícula C5157:
+ 	 Estuvo 14310 Horas,	 pagando 21465.0€.
+El coche eléctrico de matrícula C7205:
+ 	 Estuvo 13114 Horas,	 pagando 19671.0€.
+El coche eléctrico de matrícula C9057:
+ 	 Estuvo 13384 Horas,	 pagando 20076.0€.
+El coche eléctrico de matrícula C9520:
+ 	 Estuvo 17182 Horas,	 pagando 25773.0€.
+La moto de matrícula M4557:
+ 	 Estuvo 12170 Horas,	 pagando 18255.0€.
+El coche eléctrico de matrícula C9007:
+ 	 Estuvo 15621 Horas,	 pagando 23431.5€.
+El coche de matrícula C8675:
+ 	 Estuvo 16218 Horas,	 pagando 24327.0€.
+El coche eléctrico de matrícula C8472:
+ 	 Estuvo 13387 Horas,	 pagando 20080.5€.
+El coche de matrícula C1146:
+ 	 Estuvo 13816 Horas,	 pagando 20724.0€.
+La moto de matrícula M7670:
+ 	 Estuvo 12320 Horas,	 pagando 18480.0€.
+El coche eléctrico de matrícula C2187:
+ 	 Estuvo 14923 Horas,	 pagando 22384.5€.
+El coche de matrícula C7179:
+ 	 Estuvo 14679 Horas,	 pagando 22018.5€.
+El coche de matrícula C7356:
+ 	 Estuvo 17803 Horas,	 pagando 26704.5€.
+El coche de matrícula C3291:
+ 	 Estuvo 18118 Horas,	 pagando 27177.0€.
+El coche de matrícula C4011:
+ 	 Estuvo 14067 Horas,	 pagando 21100.5€.
+El coche de matrícula C9887:
+ 	 Estuvo 14360 Horas,	 pagando 21540.0€.
+El coche de matrícula C7202:
+ 	 Estuvo 14601 Horas,	 pagando 21901.5€.
+El coche de matrícula C5930:
+ 	 Estuvo 14084 Horas,	 pagando 21126.0€.
+El coche eléctrico de matrícula C9527:
+ 	 Estuvo 17212 Horas,	 pagando 25818.0€.
+El coche de matrícula C3113:
+ 	 Estuvo 18755 Horas,	 pagando 28132.5€.
+El coche de matrícula C9104:
+ 	 Estuvo 17893 Horas,	 pagando 26839.5€.
+El coche eléctrico de matrícula C7587:
+ 	 Estuvo 18597 Horas,	 pagando 27895.5€.
+El coche de matrícula C4840:
+ 	 Estuvo 17219 Horas,	 pagando 25828.5€.
+El coche de matrícula C6492:
+ 	 Estuvo 18720 Horas,	 pagando 28080.0€.
+El coche eléctrico de matrícula C9970:
+ 	 Estuvo 17648 Horas,	 pagando 26472.0€.
+El coche de matrícula C6492:
+ 	 Estuvo 16309 Horas,	 pagando 24463.5€.
+El coche de matrícula C1811:
+ 	 Estuvo 15503 Horas,	 pagando 23254.5€.
+El coche eléctrico de matrícula C5305:
+ 	 Estuvo 17647 Horas,	 pagando 26470.5€.
+El coche de matrícula C6085:
+ 	 Estuvo 17751 Horas,	 pagando 26626.5€.
+El coche eléctrico de matrícula C8087:
+ 	 Estuvo 16760 Horas,	 pagando 25140.0€.
+El coche de matrícula C4748:
+ 	 Estuvo 15004 Horas,	 pagando 22506.0€.
+El coche eléctrico de matrícula C9948:
+ 	 Estuvo 19300 Horas,	 pagando 28950.0€.
+El coche de matrícula C1541:
+ 	 Estuvo 18010 Horas,	 pagando 27015.0€.
+El coche de matrícula C6346:
+ 	 Estuvo 15891 Horas,	 pagando 23836.5€.
+El coche de matrícula C4710:
+ 	 Estuvo 18643 Horas,	 pagando 27964.5€.
+El coche eléctrico de matrícula C6155:
+ 	 Estuvo 17915 Horas,	 pagando 26872.5€.
+El coche de matrícula C9589:
+ 	 Estuvo 20140 Horas,	 pagando 30210.0€.
+El coche eléctrico de matrícula C2407:
+ 	 Estuvo 18452 Horas,	 pagando 27678.0€.
+La moto de matrícula M3956:
+ 	 Estuvo 16296 Horas,	 pagando 24444.0€.
+El coche de matrícula C4070:
+ 	 Estuvo 16120 Horas,	 pagando 24180.0€.
+El coche de matrícula C6891:
+ 	 Estuvo 17857 Horas,	 pagando 26785.5€.
+El coche eléctrico de matrícula C1956:
+ 	 Estuvo 16863 Horas,	 pagando 25294.5€.
+El coche de matrícula C7542:
+ 	 Estuvo 17739 Horas,	 pagando 26608.5€.
+El coche de matrícula C5569:
+ 	 Estuvo 21143 Horas,	 pagando 31714.5€.
+El coche de matrícula C1215:
+ 	 Estuvo 16304 Horas,	 pagando 24456.0€.
+El coche eléctrico de matrícula C1634:
+ 	 Estuvo 16703 Horas,	 pagando 25054.5€.
+El coche eléctrico de matrícula C6570:
+ 	 Estuvo 19329 Horas,	 pagando 28993.5€.
+El coche eléctrico de matrícula C9242:
+ 	 Estuvo 16175 Horas,	 pagando 24262.5€.
+El coche de matrícula C3688:
+ 	 Estuvo 20139 Horas,	 pagando 30208.5€.
+El coche eléctrico de matrícula C5717:
+ 	 Estuvo 20047 Horas,	 pagando 30070.5€.
+El coche de matrícula C2753:
+ 	 Estuvo 19421 Horas,	 pagando 29131.5€.
+El coche eléctrico de matrícula C4641:
+ 	 Estuvo 22160 Horas,	 pagando 33240.0€.
+El coche de matrícula C1181:
+ 	 Estuvo 21123 Horas,	 pagando 31684.5€.
+El coche de matrícula C5808:
+ 	 Estuvo 19302 Horas,	 pagando 28953.0€.
+El coche de matrícula C1602:
+ 	 Estuvo 19615 Horas,	 pagando 29422.5€.
+El coche de matrícula C3282:
+ 	 Estuvo 21309 Horas,	 pagando 31963.5€.
+El coche de matrícula C8213:
+ 	 Estuvo 19733 Horas,	 pagando 29599.5€.
+El coche de matrícula C2894:
+ 	 Estuvo 20655 Horas,	 pagando 30982.5€.
+El coche de matrícula C4352:
+ 	 Estuvo 20822 Horas,	 pagando 31233.0€.
+El coche eléctrico de matrícula C7439:
+ 	 Estuvo 22630 Horas,	 pagando 33945.0€.
+La moto de matrícula M5612:
+ 	 Estuvo 22236 Horas,	 pagando 33354.0€.
+La moto de matrícula M4030:
+ 	 Estuvo 19568 Horas,	 pagando 29352.0€.
+El coche de matrícula C9695:
+ 	 Estuvo 22570 Horas,	 pagando 33855.0€.
+El coche de matrícula C1485:
+ 	 Estuvo 19377 Horas,	 pagando 29065.5€.
+El coche de matrícula C9443:
+ 	 Estuvo 18923 Horas,	 pagando 28384.5€.
+La moto de matrícula M9990:
+ 	 Estuvo 19748 Horas,	 pagando 29622.0€.
+El coche eléctrico de matrícula C7487:
+ 	 Estuvo 20610 Horas,	 pagando 30915.0€.
+El coche de matrícula C3354:
+ 	 Estuvo 17708 Horas,	 pagando 26562.0€.
+El coche de matrícula C3996:
+ 	 Estuvo 21748 Horas,	 pagando 32622.0€.
+El coche eléctrico de matrícula C4456:
+ 	 Estuvo 20287 Horas,	 pagando 30430.5€.
+El coche de matrícula C3466:
+ 	 Estuvo 22230 Horas,	 pagando 33345.0€.
+La moto de matrícula M5649:
+ 	 Estuvo 20527 Horas,	 pagando 30790.5€.
+El coche de matrícula C6277:
+ 	 Estuvo 23264 Horas,	 pagando 34896.0€.
+El coche de matrícula C9743:
+ 	 Estuvo 21109 Horas,	 pagando 31663.5€.
+El coche de matrícula C1737:
+ 	 Estuvo 20261 Horas,	 pagando 30391.5€.
+El coche eléctrico de matrícula C7022:
+ 	 Estuvo 21928 Horas,	 pagando 32892.0€.
+El coche de matrícula C9554:
+ 	 Estuvo 22657 Horas,	 pagando 33985.5€.
+El coche eléctrico de matrícula C8682:
+ 	 Estuvo 22737 Horas,	 pagando 34105.5€.
+La moto de matrícula M7022:
+ 	 Estuvo 22910 Horas,	 pagando 34365.0€.
+El coche de matrícula C7983:
+ 	 Estuvo 21707 Horas,	 pagando 32560.5€.
+El coche de matrícula C7931:
+ 	 Estuvo 22033 Horas,	 pagando 33049.5€.
+La moto de matrícula M8714:
+ 	 Estuvo 21699 Horas,	 pagando 32548.5€.
+El coche eléctrico de matrícula C2755:
+ 	 Estuvo 23472 Horas,	 pagando 35208.0€.
+El coche eléctrico de matrícula C2568:
+ 	 Estuvo 23800 Horas,	 pagando 35700.0€.
+El coche de matrícula C7946:
+ 	 Estuvo 22421 Horas,	 pagando 33631.5€.

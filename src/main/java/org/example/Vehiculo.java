@@ -66,6 +66,7 @@ public class Vehiculo implements Runnable {
     @Override
     public void run() {
         try {
+            Thread.sleep((long) (Math.random()*6000));
             if (this.dpi && parking.entrarVehiculoDPI(this)) {
                 Thread.sleep(tiempo);
                 parking.pagar(this.maquina, this);
