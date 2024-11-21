@@ -30,14 +30,14 @@ public class Parking {
     int plazasDPI = MAX_PLAZAS_DPI;
 
 
-    public void entrarVehiculo(Vehiculo vehiculo) {
+    public boolean entrarVehiculo(Vehiculo vehiculo) {
         lockEntradaNormal.lock();
         try {
             if (vehiculo.getTipo() == Vehiculo.tipoVehiculo.COCHE) {
                 System.out.println("Soy el coche con matrícula " + vehiculo.getMatricula() + " y voy a ver si puedo aparcar");
                 if (plazasCochesDisponibles == 0) {
                     System.out.println("No hay plazas, me toca aparcar en la calle como un plebeyo");
-                    return;
+                    return false;
                 }
                 System.out.println("¡Hay una plaza! ¡Que bien!");
                 plazasCochesDisponibles--;
@@ -46,7 +46,7 @@ public class Parking {
                 System.out.println("Soy la moto con matricula " + vehiculo.getMatricula() + " y voy a ver si puedo aparcar");
                 if (plazasMotosDisponibles == 0) {
                     System.out.println("No hay plazas me toca aparcar entre dos coches en la calle y que se busquen la vida");
-                    return;
+                    return false;
                 }
                 System.out.println("¡Hay una plaza! ¡Que bien!");
                 plazasMotosDisponibles--;
@@ -56,6 +56,7 @@ public class Parking {
 
                 if (vehiculo.getBateria() <= 20 && plazasCargadoresDisponibles == 0) {
                     System.out.println("¡Oh no!. Tengo muy poca batería y no hay cargadores, ¡me voy!");
+                    return false;
 
                 } else {
                     if ((vehiculo.getBateria() <= 20)) {
@@ -66,9 +67,13 @@ public class Parking {
                         System.out.println("¡Hay una plaza! ¡Que bien!");
                         plazasCochesDisponibles--;
 
-                    } else System.out.println("Ni plazas, ni cargadores ni na'... que mal rollo...");
+                    } else {
+                        System.out.println("Ni plazas, ni cargadores ni na'... que mal rollo...");
+                        return false;
+                    }
                 }
             }
+            return true;
         } finally {
             lockEntradaNormal.unlock();
         }

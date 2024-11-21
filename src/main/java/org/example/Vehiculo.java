@@ -7,11 +7,13 @@ public class Vehiculo implements Runnable {
     tipoVehiculo tipo;
     int bateria;
     boolean dpi;
+    Parking parking;
 
-    public Vehiculo(long tiempo, String matricula, tipoVehiculo tipo) {
+    public Vehiculo(long tiempo, String matricula, tipoVehiculo tipo, Parking parking) {
         this.tiempo = tiempo;
         this.matricula = matricula;
         this.tipo = tipo;
+        this.parking = parking;
         if (tipo == tipoVehiculo.COCHE) {
 
             switch ((int) (Math.random() * 2)) {
@@ -67,7 +69,13 @@ public class Vehiculo implements Runnable {
         espera hasta que esté una libre.
         paga y se va.
         */
-
+        if(parking.entrarVehiculo(this)){
+            try {
+                Thread.sleep(tiempo);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
 
 
     }
