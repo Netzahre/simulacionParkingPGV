@@ -3,7 +3,7 @@ package org.example;
 import java.io.*;
 
 public class MaquinaPago {
-    double dinerito = 0;
+
     //metodo el precio de 1'5€ por segundo
     public double recibirDinero(Vehiculo vehiculo) {
         return vehiculo.getTiempo() * 1.5;
@@ -25,23 +25,20 @@ public class MaquinaPago {
         if (!recaudacionMaquinas.exists()) {
             try (FileOutputStream fos = new FileOutputStream(recaudacionMaquinas);
                  ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-                oos.writeObject("El parking ha recaudado "+dinerito+" €.");
+                oos.writeDouble(0);
             }
         }
 
         try (FileInputStream fis = new FileInputStream(recaudacionMaquinas);
              ObjectInputStream ois = new ObjectInputStream(fis)) {
 
-            String recaudacion = (String) ois.readObject();
-            String[] letras = recaudacion.split(" ");
-            double dinerito = Double.parseDouble(letras[4]) + dinero;
-
+            double recaudacion =ois.readDouble()+dinero;
 
             try (FileOutputStream fos = new FileOutputStream(recaudacionMaquinas);
                  ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-                oos.writeObject("El parking ha recaudado " + dinerito + " €.");
+                oos.writeDouble(recaudacion);
             }
-        } catch (ClassNotFoundException | IOException e) {
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
