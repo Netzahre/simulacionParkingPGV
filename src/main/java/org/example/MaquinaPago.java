@@ -30,7 +30,7 @@ public class MaquinaPago {
         try (FileInputStream fis = new FileInputStream(RECAUDACIONMAQUINA);
              ObjectInputStream ois = new ObjectInputStream(fis)) {
 
-            double recaudacion =ois.readDouble()+dinero;
+            double recaudacion = ois.readDouble()+dinero;
 
             try (FileOutputStream fos = new FileOutputStream(RECAUDACIONMAQUINA);
                  ObjectOutputStream oos = new ObjectOutputStream(fos)) {
