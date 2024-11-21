@@ -31,6 +31,7 @@ public class Simulador {
             Thread thread = new Thread(vehiculo);
             hilos.add(thread);
         }
+
         hilos.forEach(Thread::start);
 
         for (Thread hilo : hilos) {

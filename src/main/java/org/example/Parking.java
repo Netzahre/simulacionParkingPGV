@@ -5,15 +5,6 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Parking {
-    /*
-    26 Motos
-    160 coches normales
-    20 plazas DPI
-    5 cargadores de coche electrico
-    */
-
-    //Añadir cargadores a las claves de semaforo normal y gestionar las plazas de coche/cargador/moto con int?
-    //Creo que vamos a tener que usar 2 reentrantLock y gestionar las plazas con int para que los coches vayan de 1 en 1
     ReentrantLock lockEntradaNormal = new ReentrantLock();
     ReentrantLock lockEntradaDPI = new ReentrantLock();
     ReentrantLock lockSalidaNormal = new ReentrantLock();
@@ -124,7 +115,6 @@ public class Parking {
         }
     }
 
-    //representa el pago en la máquina pasada como parámetro.
     public void pagar(MaquinaPago maquina, Vehiculo vehiculo) throws IOException, InterruptedException {
         maquinasPago.acquire();
         maquina.registrarSalida(vehiculo);

@@ -4,7 +4,9 @@ import java.io.IOException;
 
 public class Vehiculo implements Runnable {
     String matricula;
-    enum tipoVehiculo {COCHE, MOTO, ELECTRICO}
+
+    public enum tipoVehiculo {COCHE, MOTO, ELECTRICO}
+
     long tiempo;
     tipoVehiculo tipo;
     int bateria;
@@ -12,7 +14,7 @@ public class Vehiculo implements Runnable {
     Parking parking;
     MaquinaPago maquina;
 
-    public Vehiculo(long tiempo, String matricula, tipoVehiculo tipo,MaquinaPago maquina ,Parking parking) {
+    public Vehiculo(long tiempo, String matricula, tipoVehiculo tipo, MaquinaPago maquina, Parking parking) {
         this.tiempo = tiempo;
         this.matricula = matricula;
         this.tipo = tipo;
@@ -35,28 +37,12 @@ public class Vehiculo implements Runnable {
         return matricula;
     }
 
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
-
     public long getTiempo() {
         return tiempo;
     }
 
-    public void setTiempo(long tiempo) {
-        this.tiempo = tiempo;
-    }
-
     public tipoVehiculo getTipo() {
         return tipo;
-    }
-
-    public void setTipo(tipoVehiculo tipo) {
-        this.tipo = tipo;
-    }
-
-    public void setBateria(int bateria) {
-        this.bateria = bateria;
     }
 
     public int getBateria() {
@@ -66,7 +52,7 @@ public class Vehiculo implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep((long) (Math.random()*6000));
+            Thread.sleep((long) (Math.random() * 6000));
             if (this.dpi && parking.entrarVehiculoDPI(this)) {
                 Thread.sleep(tiempo);
                 parking.pagar(this.maquina, this);
@@ -79,7 +65,9 @@ public class Vehiculo implements Runnable {
                 parking.pagar(this.maquina, this);
                 parking.salirVehiculo(this);
             }
-        } catch (InterruptedException | IOException e) {throw new RuntimeException(e);}
+        } catch (InterruptedException | IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
