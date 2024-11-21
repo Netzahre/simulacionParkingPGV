@@ -3,14 +3,14 @@ package org.example;
 import java.io.*;
 
 public class MaquinaPago {
-
+    double dinerito = 0;
     //metodo el precio de 1'5€ por segundo
-    public double recibirDinero(Vehiculo vehiculo){
+    public double recibirDinero(Vehiculo vehiculo) {
         return vehiculo.getTiempo() * 1.5;
     }
 
     //Graba en registro.txt los datos
-    public void registrarSalida(Vehiculo vehiculo) throws IOException {
+    public synchronized void registrarSalida(Vehiculo vehiculo) throws IOException {
         File registroVehiculo = new File("src/main/resources/files/registro.txt");
         File recaudacionMaquinas = new File("src/main/resources/files/moneymoney.dat");
         double dinero = recibirDinero(vehiculo);
@@ -20,6 +20,7 @@ public class MaquinaPago {
             sb.append(vehiculo);
             sb.append("\t pagando " + dinero + "€.\n");
             bw.write(sb.toString());
+
         }
 
         try (BufferedReader br = new BufferedReader(new FileReader(recaudacionMaquinas))){
@@ -47,4 +48,5 @@ Ejemplo:
 *   pagando 3€.
 *
 * */
+    }
 }

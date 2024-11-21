@@ -81,50 +81,50 @@ public class Parking {
 
     public void entrarVehiculoDPI(Vehiculo vehiculo) {
         lockEntradaDPI.lock();
-        System.out.println("¡Por una vez mi plaza favorita está!, para mi coche de matrícula"+vehiculo.getMatricula()+ "Hoy aprueban todos!");
-        plazasDPI--;
-        lockEntradaDPI.unlock();
+        if (plazasDPI != 0) {
+            System.out.println("¡Por una vez mi plaza favorita está!, para mi coche de matrícula " + vehiculo.getMatricula() + ", Hoy aprueban todos!");
+            plazasDPI--;
+            lockEntradaDPI.unlock();
+            return true;
+        } else {
+            lockEntradaDPI.unlock();
+            return false;
+        }
     }
 
     public void salirVehiculo(Vehiculo vehiculo) {
         lockSalidaNormal.lock();
-        try{
-            if(vehiculo.getTipo() == Vehiculo.tipoVehiculo.COCHE){
-                System.out.println("El coche con matrícula "+ vehiculo.getMatricula() +" ha salido.");
+        try {
+            if (vehiculo.getTipo() == Vehiculo.tipoVehiculo.COCHE) {
+                System.out.println("El coche con matrícula " + vehiculo.getMatricula() + " ha salido.");
                 plazasCochesDisponibles++;
-            }else if (vehiculo.getTipo() == Vehiculo.tipoVehiculo.MOTO){
-                System.out.println("La moto con matrícula "+ vehiculo.getMatricula() +" ha salido.");
+            } else if (vehiculo.getTipo() == Vehiculo.tipoVehiculo.MOTO) {
+                System.out.println("La moto con matrícula " + vehiculo.getMatricula() + " ha salido.");
                 plazasMotosDisponibles++;
 
-            } else if (vehiculo.getTipo() == Vehiculo.tipoVehiculo.ELECTRICO){
-                System.out.println("El coche eléctrico con matrícula "+ vehiculo.getMatricula() +" ha salido.");
-                if (vehiculo.getBateria()<=20){
+            } else if (vehiculo.getTipo() == Vehiculo.tipoVehiculo.ELECTRICO) {
+                System.out.println("El coche eléctrico con matrícula " + vehiculo.getMatricula() + " ha salido.");
+                if (vehiculo.getBateria() <= 20) {
                     plazasCargadoresDisponibles++;
                 } else plazasCochesDisponibles++;
             }
         } finally {
             lockSalidaNormal.unlock();
         }
-
     }
 
     public void salirVehiculoDPI(Vehiculo vehiculo) {
         lockSalidaPDI.lock();
-        try{
-            System.out.println("El coche con matrícula "+ vehiculo.getMatricula() +" ha finalizado su jornada laboral. ¡A descansar!");
+        try {
+            System.out.println("El coche con matrícula " + vehiculo.getMatricula() + " ha finalizado su jornada laboral. ¡A descansar!");
             plazasDPI++;
         } finally {
             lockSalidaPDI.unlock();
         }
-
     }
 
     //representa el pago en la máquina pasada como parámetro.
     public void pagar(MaquinaPago maquina) {
 
-    }
-
-    public int getPlazasDPI() {
-        return plazasDPI;
     }
 }
