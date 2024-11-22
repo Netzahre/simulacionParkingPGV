@@ -14,7 +14,7 @@ public class Vehiculo implements Runnable {
     Parking parking;
     MaquinaPago maquina;
 
-    public Vehiculo(long tiempo, String matricula, tipoVehiculo tipo, MaquinaPago maquina, Parking parking) {
+    public Vehiculo(int tiempo, String matricula, tipoVehiculo tipo, MaquinaPago maquina, Parking parking) {
         this.tiempo = tiempo;
         this.matricula = matricula;
         this.tipo = tipo;
@@ -54,14 +54,14 @@ public class Vehiculo implements Runnable {
         try {
             Thread.sleep((long) (Math.random() * 6000));
             if (this.dpi && parking.entrarVehiculoDPI(this)) {
-                Thread.sleep(tiempo);
+                Thread.sleep(tiempo * 1000);
                 parking.pagar(this.maquina, this);
                 parking.salirVehiculoDPI(this);
                 return;
             }
 
             if (parking.entrarVehiculo(this)) {
-                Thread.sleep(tiempo);
+                Thread.sleep(tiempo * 1000);
                 parking.pagar(this.maquina, this);
                 parking.salirVehiculo(this);
             }
