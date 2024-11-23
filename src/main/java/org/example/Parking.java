@@ -144,7 +144,7 @@ public class Parking {
         }
     }
 
-    private void salirVehiculoDPI(Vehiculo vehiculo) {
+    public void salirVehiculoDPI(Vehiculo vehiculo) {
         lockSalidaPDI.lock();
         try {
             System.out.println("El coche con matrícula " + vehiculo.getMatricula() + " ha finalizado su jornada laboral. ¡A descansar!");
