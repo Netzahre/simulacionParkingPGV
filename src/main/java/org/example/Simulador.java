@@ -7,7 +7,6 @@ public class Simulador {
 
     /**
      * Metodo para rellenar una lista con 300 coches y 30 motos creados aleatoriamente
-     *
      * @return devuelve una lista con 330 vehiculos
      */
     static private List<Vehiculo> rellenarVehiculos() {

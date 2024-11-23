@@ -53,9 +53,9 @@ public class Parking {
     }
 
     /**
-     * Metodo
-     * @param vehiculo
-     * @return
+     * Metodo para aparcar un coche normal
+     * @param vehiculo el coche que se va a aparcar
+     * @return devuelve verdadero si se aparco y falso si no se pudo
      */
     private boolean aparcarCoche(Vehiculo vehiculo) {
         System.out.println("Soy el coche con matrícula " + vehiculo.getMatricula() + " y voy a ver si puedo aparcar");
@@ -68,6 +68,11 @@ public class Parking {
         return true;
     }
 
+    /**
+     * Metodo para aparcar una moto normal
+     * @param vehiculo la moto que se va a aparcar
+     * @return devuelve verdadero si se aparco y falso si no se pudo
+     */
     private boolean aparcarMoto(Vehiculo vehiculo) {
         System.out.println("Soy la moto con matrícula " + vehiculo.getMatricula() + " y voy a ver si puedo aparcar");
         if (plazasMotosDisponibles == 0) {
@@ -79,6 +84,11 @@ public class Parking {
         return true;
     }
 
+    /**
+     * Metodo para aparcar un coche electrico
+     * @param vehiculo el coche electrico que se va a aparcar
+     * @return devuelve verdadero si se aparco y falso si no se pudo
+     */
     private boolean aparcarCocheElectrico(Vehiculo vehiculo) {
         System.out.println("Soy el coche eléctrico con matrícula " + vehiculo.getMatricula() + " y voy a ver si puedo aparcar");
 
@@ -103,6 +113,11 @@ public class Parking {
         return false;
     }
 
+    /**
+     * Metodo para aparcar un coche DPI por la entrada especial de estos
+     * @param vehiculo el coche que se va a aparcar
+     * @return devuelve verdadero si se aparco y falso si no se pudo
+     */
     public boolean entrarVehiculoDPI(Vehiculo vehiculo) {
         lockEntradaDPI.lock();
         try {
@@ -120,6 +135,10 @@ public class Parking {
 
     }
 
+    /**
+     * Metodo que simula el vehiculo saliendo del parking
+     * @param vehiculo el vehiculo que sale
+     */
     public void salirVehiculo(Vehiculo vehiculo) {
         lockSalidaNormal.lock();
         try {
@@ -144,6 +163,10 @@ public class Parking {
         }
     }
 
+    /**
+     * Metodo que simula la salida de un vehiculo DPI del parking por su salida especial
+     * @param vehiculo
+     */
     public void salirVehiculoDPI(Vehiculo vehiculo) {
         lockSalidaPDI.lock();
         try {
@@ -154,6 +177,13 @@ public class Parking {
         }
     }
 
+    /**
+     * Metodo que simula el acto de ir a pagar el parking
+     * @param maquina la maquina donde se va a pagar
+     * @param vehiculo el vehiculo que va a pagar
+     * @throws IOException Excepcion que puede ocurrir si no se puede registrar el vehiculo en el metodo de la maquina
+     * @throws InterruptedException Excepcion que puede ocurrir si el hilo es interrumpido
+     */
     public void pagar(MaquinaPago maquina, Vehiculo vehiculo) throws IOException, InterruptedException {
         maquinasPago.acquire();
         System.out.println("¡Por fin me toca pagar! Que bien que no me cobran por la espera...");
