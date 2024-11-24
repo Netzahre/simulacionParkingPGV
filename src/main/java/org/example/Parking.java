@@ -165,7 +165,7 @@ public class Parking {
 
     /**
      * Metodo que simula la salida de un vehiculo DPI del parking por su salida especial
-     * @param vehiculo
+     * @param vehiculo el vehiculo DPI que va a salir
      */
     public void salirVehiculoDPI(Vehiculo vehiculo) {
         lockSalidaPDI.lock();

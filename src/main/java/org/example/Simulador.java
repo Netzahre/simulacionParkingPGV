@@ -21,7 +21,7 @@ public class Simulador {
             boolean esDPI = switch ((int) (Math.random() * 2)) {
                 case 0 -> true;
                 case 1 -> false;
-                default -> false;
+                default -> throw new IllegalStateException("Valor inesperado: " + estanciaParking);
             };
             vehiculos.add(new Vehiculo(matricula, estanciaParking, tipo, esDPI, parking, maquina));
         }

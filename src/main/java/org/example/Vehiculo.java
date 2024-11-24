@@ -8,7 +8,7 @@ public class Vehiculo implements Runnable {
     private long tiempo;
     private tipoVehiculo tipo;
     private int bateria;
-    private boolean esDPI = false;
+    private boolean esDPI;
     private Parking parking;
     private MaquinaPago maquina;
 
@@ -66,7 +66,7 @@ public class Vehiculo implements Runnable {
 
     /**
      * El metodo get de la bateria del coche si fuera electrico
-     * @return
+     * @return devuelve la bateria del coche electrico
      */
     public int getBateria() {
         return bateria;
